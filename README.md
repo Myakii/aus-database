@@ -28,19 +28,17 @@ docker compose exec -it postgres-aus psql -U aus-user -d aus -f /tmp/sql/load-da
 ### Requêtez vos données avec pgadmin
 
 - Depuis votre navigateur, allez à l'adresse localhost:5010
-- Connectez vous avec
-
-- - login: prof@aus.floless.fr
-- - mdp: aus2025
-- Ajoutez la connection vers postgres
-
-- - Click-droit sur Servers > Register > Server
+- Connectez vous avec :
+  - login: prof@aus.floless.fr
+  - mdp: aus2025
+- Ajoutez la connection vers postgres :
+  - Click-droit sur Servers > Register > Server
   - Name: mettez Local
   - Dans le tab Connection:
-  - - Host name / address: postgres-aus
-  - - port: 5432
-  - - user: aus-user
-  - - password: aus2025
+    - Host name / address: postgres-aus
+    - port: 5432
+    - user: aus-user
+    - password: aus2025
 
 ![image](https://github.com/Myakii/aus-database/assets/80988887/f0f14821-eb09-4b1a-83b4-e1a74dcc6c34)
 
